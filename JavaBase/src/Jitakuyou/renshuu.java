@@ -13,8 +13,7 @@ public class renshuu {
 			String mojiretu = "";
 			int suu = ra.nextInt(450) + 50;
 			for (int a = 1; a <= suu; a++) {
-				int r = ra.nextInt(51) + 0;
-				mojiretu += moji[r];
+				mojiretu += moji[ra.nextInt(52)];
 			}
 			System.out.println(mojiretu);
 		}
